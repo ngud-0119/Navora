@@ -5,7 +5,6 @@ import Navigation from "components/Navigation";
 import Card from "components/Card";
 import Picture from "components/Bubble/Rotate";
 import AOS from 'aos';
-import Palla from "components/parallex";
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 AOS.init();
@@ -680,7 +679,7 @@ const Landing003Page = () => {
                     alt="iphone12pro_One"
                   />
 
-                  {frame == 0 ?
+                  {frame === 0 ?
                     
                     <div className="absolute h-[672px] inset-[0] justify-center w-[311px] ml-[19.6px] mt-[25.64px]">
                       <Img
@@ -739,7 +738,7 @@ const Landing003Page = () => {
                         </Text>
                       </div>
                     </div>                 
-                  : frame == 1 ?
+                  : frame === 1 ?
                     <div className="absolute h-[672.72px] inset-[0] justify-center w-[311px] mt-[24.94px] ml-[18px] ">
                       <Img
                         className="h-[672px] w-[311px] object-cover"

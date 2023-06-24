@@ -22,7 +22,6 @@ const Picture = (props) => {
     const { x, y } = useMousePosition({ includeTouch: true });
     const [translateX, setTranslateX] = React.useState(0);
     const [translateY, setTranslateY] = React.useState(0);
-    const MAX_OFFSET = 10;
   
     React.useEffect(() => {
             

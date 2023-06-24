@@ -27,6 +27,5 @@ const useMousePosition = ({ includeTouch }) => {
     };
   }, [includeTouch]);
   return mousePosition;
-  console.log("mousePosition");
 };
 export default useMousePosition;
