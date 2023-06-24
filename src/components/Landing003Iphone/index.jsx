@@ -28,6 +28,6 @@ const Landing003Iphone = (props) => {
   );
 };
 
-Landing003Iphone.defaultProps = {};
+// Landing003Iphone.defaultProps = {};
 
 export default Landing003Iphone;
