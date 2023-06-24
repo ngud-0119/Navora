@@ -31,4 +31,3 @@ const Landing003Iphone = (props) => {
 Landing003Iphone.defaultProps = {};
 
 export default Landing003Iphone;
-2.025641025641026

@@ -9,7 +9,6 @@ import Palla from "components/parallex";
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 AOS.init();
-// import Example from "components/Card";
 
 const Landing003Page = () => {
 
@@ -27,8 +26,6 @@ const Landing003Page = () => {
       const div3 = document.getElementById("frame3");
 
       let previousScrollPosition = window.pageYOffset;
-
-
       const currentScrollPosition = window.pageYOffset;
 
       if (currentScrollPosition > previousScrollPosition) {
